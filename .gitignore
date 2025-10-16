@@ -6,6 +6,20 @@
 *.[lL][aA][cC][cC][dD][bB]
 *.[lL][dD][bB]
 
+# Excel
+~$*.xls*
+*.xlk
+*.xlsb
+*.xlsx
+
+# Sensitive data
+secrets.json
+.env
+*.key
+
+# VBA
+*.frx
+
 # The following sections constitute a list of Office file extensions that support VBA.
 # If you want to exclude Office files from your repo, uncomment the corresponding file extensions.
 
